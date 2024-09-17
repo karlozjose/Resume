@@ -4,17 +4,23 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+	<!--<link rel="stylesheet" type="text/css" media="print" href="print.css">-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+
 	<title>Carlos J. Malave web Resume</title>
 </head>
 <body>
 	<div>
 		<header>
-			Palm Bay, FL 
-			787-709-6970
-			carlos.malave3@gmail.com
+			<span class="site-header" id="address">Palm Bay, FL </span>
+			<span class="site-header" id="phone">787-709-6970 </span>
+			<span class="site-header" id="email">carlos.malave3@gmail.com </span>
 		</header>
-		<h1 class="site-header">
+
+		<h1 class="user-name">
 			Carlos J. Malave
 		</h1>
 		<p class="intro-para">
@@ -22,16 +28,19 @@
 		</p>
 		<h2>Education</h2>
 		<p class="education-para">
-			University of Puerto Rico, Mayaguez Campus Aug 2008 - May 2014 <br>
+			<span>University of Puerto Rico, Mayaguez Campus</span><span class="dates">Aug 2008 - May 2014</span>  <br>
 			Bachelor of Science in Electrical Engineering - Magna Cum Laude <br>
 		</p>
 		<p>
 			License	College of Engineers and Surveyors of Puerto Rico, Puerto Rico Engineer in Training (E.I.T.) Lic. #27307
 		</p>
-		<h2>Professional Experience</h2>
-		<h3>Planning and Procurement (SUBMEPP)	Kittery, ME	Oct 2023 - May 2024</h3>
+		<h2 class="experience-header">Professional Experience</h2>
+		<h3 class="submepp-header">
+			<span>Electrical Engineer at Submarine Maintenance Engineering, Planning and Procurement (SUBMEPP) Kittery, ME</span> 
+			<span class="dates">Oct 2023 - May 2024</span> 
+		</h3>
 		<p>
-			<ul>
+			<ul class="submepp-list">
 				<li>Responsible for engineering and technical efforts related to the development, coordination, review, and approval of SUBMEPP products for the Electrical Hull Fittings and Outboard Cables of submarines.</li>
 				<li>Developed and maintained Class Maintenance Plans.</li>
 				<li>Developed and reviewed Maintenance Standards submitted for approval.</li>
@@ -40,7 +49,10 @@
 				<li>Represented SUBMEPP in meetings.</li>
 			</ul>
 		</p>
-		<h3>Electrical Engineer at Portsmouth Naval Shipyard (PNS)	Kittery, ME	May 2017 - Oct 2023</h3>
+		<h3>
+			<span>Engineer at Portsmouth Naval Shipyard (PNS)	Kittery, ME</span> 
+			<span class="dates">May 2017 - Oct 2023</span><br> 
+		</h3>
 		<p>
 			<ul>
 				<li>Provided technical and engineering support to the Dry Deck Shelter (DDS) and Submarine Rescue Diving Recompression System (SRDRS) electrical systems.</li>
@@ -50,7 +62,8 @@
 				<li>Consulted with maintenance activities and developers for Deep Submergence projects.</li>
 			</ul>
 		</p>
-		<h3>Control Engineer at Accurate Solution and Design - Mayagüez, PR	Jun 2014 - Feb 2017
+		<h3><span>Engineer at Accurate Solution and Design - Mayagüez, PR</span>
+		<span class="dates">Jun 2014 - Feb 2017</span>
 		</h3>
 		<p>
 			<ul>

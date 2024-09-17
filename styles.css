@@ -1,0 +1,48 @@
+/* Cascading Style Sheet */
+
+* {
+    background-color: rgb(172, 249, 176);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 1, 46);
+    max-width: 8.5in;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 5px double red;
+}
+
+h2 {
+    border-bottom: 5px double red;
+}
+
+h3 {
+    border-bottom: 2.5px solid red;
+}
+
+ul {
+    list-style: url('image1.png');
+}
+
+li {
+    list-style-type: none;
+}
+
+.dates {
+    float: right;
+}
