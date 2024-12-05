@@ -71,3 +71,24 @@ li {
 .list-0 {
     display: flex;
 }
+
+/* Created with CoPilot */
+.container {
+    display: flex;
+}
+.box {
+    flex: auto;
+    padding: 10px;
+    margin: 1%;
+}
+.responsive-image {
+    height: 200px;
+    width: auto;
+
+    border: 1px solid green;
+    border-radius: 5px;
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+
+    filter:none;
+}
