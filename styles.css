@@ -11,11 +11,6 @@ html {
     font-family: "Playwrite DE Grund", cursive;
 }
 
-header {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 body {
     background-color: white;
     color: rgb(1, 1, 46);
@@ -39,12 +34,20 @@ h1 {
     border-bottom: 2px;
 }
 
+#intro {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 h2 {
     border-bottom: 2px solid green;
 }
 
 h3 {
     border-bottom: 2px;
+}
+h2 + h3 {
+    margin-top: 0;
 }
 
 ul {
@@ -59,7 +62,10 @@ li {
     list-style: url('image2.png');
 }
 
-.education-para {
+#education-header {
+    margin-top: 0px;
+}
+#education-para {
     display: flex;
     justify-content: space-between;
 }
@@ -73,12 +79,10 @@ li {
 
 .work-position {
     flex: 1;
-    margin: 1px;
-    padding: 10px;
+    padding: 5px;
 }
 .box-dates {
-    margin: 1px;
-    padding: 10px;
+    padding: 5px;
     max-width: 33%;
 }
 
