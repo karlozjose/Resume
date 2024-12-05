@@ -59,22 +59,34 @@ li {
     list-style: url('image2.png');
 }
 
-.dates {
-    float: right;
-}
-
 .education-para {
     display: flex;
     justify-content: space-between;
+}
+.dates {
+    float: right;
 }
 
 .list-0 {
     display: flex;
 }
 
+.work-position {
+    flex: 1;
+    margin: 1px;
+    padding: 10px;
+}
+.box-dates {
+    margin: 1px;
+    padding: 10px;
+    max-width: 33%;
+}
+
+
 /* Created with CoPilot */
 .container {
     display: flex;
+    justify-content: space-between;
 }
 .box {
     flex: auto;
