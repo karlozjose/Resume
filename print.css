@@ -1,4 +1,5 @@
-/* Cascading Style Sheet */
+/* For Printing only */
+/* Printer Friendly CSS */
 
 html {
     background-color: rgb(191, 253, 194);
@@ -16,13 +17,14 @@ body {
     color: rgb(1, 1, 46);
     max-width: 8.5in;
     position: relative;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, 0);
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 15px;
     padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -89,6 +91,10 @@ li {
 }
 .box-extra {
     padding: 5px 5px 20px 20px;
+}
+
+.pagebreak-avoid {
+    break-inside: avoid;
 }
 
 .container {
